@@ -1,0 +1,17 @@
+/* Apply Tailwind utility classes to our custom class names */
+.header-container {
+    background-color: #669BBC;
+  @apply  p-4 flex justify-between items-center;
+}
+
+.logo {
+  @apply text-2xl font-bold;
+}
+
+.navigation {
+  @apply flex space-x-4;
+}
+
+.nav-link {
+  @apply  hover:text-white px-3 py-2 rounded-md transition-colors duration-200 ease-in-out;
+}

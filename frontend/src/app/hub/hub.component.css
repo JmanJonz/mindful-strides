@@ -1,0 +1,7 @@
+.hubContainer {
+    background-color: #FEFAF2;
+    @apply block flex flex-col items-center m-4 gap-2
+}
+p {
+    background-color: blue;
+}

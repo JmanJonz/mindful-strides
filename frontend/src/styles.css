@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+/* * This is the global stylesheet for your application.
+ * You should place global styles here.
+ */
+
+/* Import Normalize.css first to ensure cross-browser consistency */
+@import 'normalize.css';
+
+/* * The @tailwind directives inject Tailwind's base, components, 
+ * and utility styles into your CSS.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Any custom global styles you want to add that aren't
+ * Tailwind-related should go here.
+ */
+
+ body {
+    background-color: #FFFFFF;
+    color: #780000;
+ }
